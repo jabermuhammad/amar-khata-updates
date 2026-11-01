@@ -1,0 +1,32 @@
+# APKs are attached to GitHub Releases; keep binary builds out of Git history.
+*.apk
+*.aab
+*.apks
+
+# Environment files, credentials, and signing material
+.env
+.env.*
+!.env.example
+credentials.json
+google-services.json
+GoogleService-Info.plist
+*service-account*.json
+*firebase-adminsdk*.json
+*.jks
+*.keystore
+*.p12
+*.p8
+*.pfx
+*.pem
+*.key
+
+# Local/generated files
+node_modules/
+dist/
+build/
+.expo/
+*.log
+*.tmp
+*.bak
+*.DS_Store
+Thumbs.db
